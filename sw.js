@@ -6,7 +6,7 @@
 // in the background for a fresher copy. A new version therefore never replaces the open work by itself –
 // the new worker installs, waits, and the page offers "יש גרסה חדשה – רענן".
 'use strict';
-const VER = '0.9-4262ff6f';
+const VER = '0.9-5a23b446';
 const CACHE = 'planner-' + VER;
 // the tool itself and what the installed app needs to start – everything else is kept as it is asked for
 const CORE = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'icon-512-maskable.png', 'icon-180.png'];
