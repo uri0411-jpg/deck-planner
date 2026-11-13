@@ -1,0 +1,182 @@
+{
+ "format": "planner-project",
+ "version": 1,
+ "savedWith": {
+  "version": "0.9",
+  "date": "13.11.2026",
+  "commit": "3118999"
+ },
+ "project": {
+  "name": "דוגמה – דק L עם פרגולה",
+  "catalogId": "pt-yard",
+  "exposed": false,
+  "surface": "ground"
+ },
+ "id": "D1",
+ "type": "deck",
+ "V": [
+  [
+   0,
+   0
+  ],
+  [
+   6000,
+   0
+  ],
+  [
+   6000,
+   3500
+  ],
+  [
+   3000,
+   3500
+  ],
+  [
+   3000,
+   5500
+  ],
+  [
+   0,
+   5500
+  ]
+ ],
+ "B": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "ang": 0,
+ "H": 800,
+ "gl": 0,
+ "gr": 0,
+ "support": "block",
+ "ov": {},
+ "laid": true,
+ "sig": "[[[0,0],[6000,0],[6000,3500],[3000,3500],[3000,5500],[0,5500]],[0,0,0,0,0,0],0]",
+ "pg": {
+  "roof": "mono",
+  "cladding": "poly",
+  "product": null,
+  "slope": 10,
+  "flip": false
+ },
+ "walls": {},
+ "wallsN": 4,
+ "adds": [
+  {
+   "id": "S1",
+   "type": "stairs",
+   "edge": 4,
+   "from": 900,
+   "to": 2100,
+   "rails": {
+    "left": false,
+    "right": false
+   }
+  },
+  {
+   "id": "M1",
+   "type": "rail",
+   "edge": 0,
+   "from": 0,
+   "to": 6000
+  },
+  {
+   "id": "M2",
+   "type": "rail",
+   "edge": 1,
+   "from": 0,
+   "to": 3500
+  },
+  {
+   "id": "M3",
+   "type": "rail",
+   "edge": 2,
+   "from": 0,
+   "to": 3000
+  },
+  {
+   "id": "M4",
+   "type": "rail",
+   "edge": 3,
+   "from": 0,
+   "to": 2000
+  },
+  {
+   "id": "M5",
+   "type": "rail",
+   "edge": 4,
+   "from": 0,
+   "to": 900
+  },
+  {
+   "id": "M6",
+   "type": "rail",
+   "edge": 4,
+   "from": 2100,
+   "to": 3000
+  },
+  {
+   "id": "M7",
+   "type": "rail",
+   "edge": 5,
+   "from": 0,
+   "to": 5500
+  }
+ ],
+ "standsOn": null,
+ "others": [
+  {
+   "id": "P1",
+   "type": "pergola",
+   "V": [
+    [
+     2800,
+     300
+    ],
+    [
+     5800,
+     300
+    ],
+    [
+     5800,
+     3300
+    ],
+    [
+     2800,
+     3300
+    ]
+   ],
+   "B": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "ang": 90,
+   "H": 2200,
+   "gl": 0,
+   "gr": 0,
+   "support": "block",
+   "ov": {},
+   "laid": true,
+   "sig": null,
+   "pg": {
+    "roof": "mono",
+    "cladding": "poly",
+    "product": null,
+    "slope": 10,
+    "flip": false
+   },
+   "walls": {},
+   "adds": [],
+   "standsOn": {
+    "id": "D1",
+    "method": "throughDeck"
+   }
+  }
+ ]
+}
